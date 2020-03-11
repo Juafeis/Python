@@ -1,0 +1,8 @@
+Generar archivo de unos 100 MB con tweetstream.
+
+Seleccionar los tweets de USA con el campo "country_code" de "place". Los dos últimos caracteres de "full_name" representan al estado.
+
+Podéis cargar tweets:
+
+        tweet=tweetdict["text"].encode('utf-8')
+        tweet=tweet.decode('utf-8')
